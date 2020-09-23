@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>To Do List</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"> -->
+</head>
+
+<body onload="load_list()">
+
+  <!-- Heading -->
+  <div class="box" id="heading">
+    <h1> To Do List </h1>
+  </div>
+
+  <!-- List -->
+  <div class="box">
+      <!-- Empty Box -->
+      <div id="list"></div>
+
+      <!-- Add Button -->
+      <div class="item">
+        <input type="text" name="newItem" id="new-task" placeholder="New Item" autocomplete="off">
+        <button id="adder">+</button>
+      </div>
+  </div>
+
+  <div id="delete">
+    <h1> Delete </h1>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+
+<footer>
+  Copyright 2020 Ritu Productions
+</footer>
+
+</html>
